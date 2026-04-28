@@ -1,5 +1,10 @@
 @import "bootstrap";
 
+
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 .custom_pill {
     width: 150px;
 }
@@ -32,3 +37,4 @@
 .custom_pointer {
     cursor: pointer;
 }
+

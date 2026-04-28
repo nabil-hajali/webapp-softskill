@@ -12,7 +12,7 @@ export default function HomePage() {
           <h1 className="pb-4 fw-bold">Trips List</h1>
           <div className="row">
             <div className="col">
-              <ul className="list-group list-group-flush">
+              <ul className="list-group list-group-flush border rounded-3">
                 {trips.map((trip) => (
                   <TripsList trip={trip} key={trip.id} />
                 ))}

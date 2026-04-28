@@ -26,11 +26,15 @@ export default function PartecipantsModal({ participant, onClose }) {
                                 <p>
                                     <strong>Fiscal Code:</strong> {participant.fiscalCode}
                                 </p>
+
+                                <p>
+                                    <strong>Email:</strong> {participant.email}
+                                </p>
                             </div>
                             <div className="modal-footer">
                                 <button
                                     type="button"
-                                    className="btn btn-secondary"
+                                    className="btn btn-primary w-100"
                                     onClick={onClose}
                                 >
                                     Close

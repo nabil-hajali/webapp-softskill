@@ -16,6 +16,7 @@ const trips = [
         firstName: "Marco",
         lastName: "Rossi",
         phone: "3331234567",
+        email: "marco.rossi@example.com",
         fiscalCode: "RSSMRC90A01H501U",
       },
       {
@@ -23,6 +24,7 @@ const trips = [
         firstName: "Giulia",
         lastName: "Bianchi",
         phone: "3339876543",
+        email: "giulia.bianchi@example.com",
         fiscalCode: "BNCGLI92B41F205X",
       },
       {
@@ -30,6 +32,7 @@ const trips = [
         firstName: "Luca",
         lastName: "Verdi",
         phone: "3334567890",
+        email: "luca.verdi@example.com",
         fiscalCode: "VRDLCU88C15D612K",
       },
     ],
@@ -45,6 +48,7 @@ const trips = [
         firstName: "Sara",
         lastName: "Romano",
         phone: "3331112233",
+        email: "sara.romano@example.com",
         fiscalCode: "RMNSRA91D45F205Z",
       },
       {
@@ -52,6 +56,7 @@ const trips = [
         firstName: "Davide",
         lastName: "Ferrari",
         phone: "3334445566",
+        email: "davide.ferrari@example.com",
         fiscalCode: "FRRDVD89E12L219P",
       },
       {
@@ -59,6 +64,7 @@ const trips = [
         firstName: "Martina",
         lastName: "Greco",
         phone: "3337778899",
+        email: "martina.greco@example.com",
         fiscalCode: "GRCMTN94F20A944L",
       },
     ],
@@ -74,6 +80,7 @@ const trips = [
         firstName: "Alessandro",
         lastName: "Conti",
         phone: "3341234567",
+        email: "alessandro.conti@example.com",
         fiscalCode: "CNTLSN87G10D612R",
       },
       {
@@ -81,6 +88,7 @@ const trips = [
         firstName: "Elena",
         lastName: "Marini",
         phone: "3349876543",
+        email: "elena.marini@example.com",
         fiscalCode: "MRNLNE93H22H501S",
       },
       {
@@ -88,6 +96,7 @@ const trips = [
         firstName: "Francesco",
         lastName: "Gallo",
         phone: "3344567890",
+        email: "francesco.gallo@example.com",
         fiscalCode: "GLLFNC90I18F839M",
       },
     ],
@@ -103,6 +112,7 @@ const trips = [
         firstName: "Chiara",
         lastName: "Moretti",
         phone: "3341112233",
+        email: "chiara.moretti@example.com",
         fiscalCode: "MRTCHR95L44L736Q",
       },
       {
@@ -110,6 +120,7 @@ const trips = [
         firstName: "Matteo",
         lastName: "Ricci",
         phone: "3344445566",
+        email: "matteo.ricci@example.com",
         fiscalCode: "RCCMTT88M12H501P",
       },
       {
@@ -117,6 +128,7 @@ const trips = [
         firstName: "Laura",
         lastName: "Esposito",
         phone: "3347778899",
+        email: "laura.esposito@example.com",
         fiscalCode: "SPSLRA93N55F839T",
       },
     ],
@@ -132,6 +144,7 @@ const trips = [
         firstName: "Antonio",
         lastName: "Russo",
         phone: "3351234567",
+        email: "antonio.russo@example.com",
         fiscalCode: "RSSNTN89P10F839Y",
       },
       {
@@ -139,6 +152,7 @@ const trips = [
         firstName: "Federica",
         lastName: "De Luca",
         phone: "3359876543",
+        email: "federica.deluca@example.com",
         fiscalCode: "DLCFRC94R41F839A",
       },
       {
@@ -146,7 +160,8 @@ const trips = [
         firstName: "Gennaro",
         lastName: "Coppola",
         phone: "3354567890",
-        fiscalCode: "CPP GNR90S15F839B".replace(" ", ""),
+        email: "gennaro.coppola@example.com",
+        fiscalCode: "CPPGNR90S15F839B",
       },
     ],
   },
@@ -161,6 +176,7 @@ const trips = [
         firstName: "Simone",
         lastName: "Barbieri",
         phone: "3351112233",
+        email: "simone.barbieri@example.com",
         fiscalCode: "BRBSMN91T22L219C",
       },
       {
@@ -168,6 +184,7 @@ const trips = [
         firstName: "Valentina",
         lastName: "Riva",
         phone: "3354445566",
+        email: "valentina.riva@example.com",
         fiscalCode: "RVAVNT92A45L219D",
       },
       {
@@ -175,6 +192,7 @@ const trips = [
         firstName: "Andrea",
         lastName: "Fontana",
         phone: "3357778899",
+        email: "andrea.fontana@example.com",
         fiscalCode: "FNTNDR88B18L219E",
       },
     ],
@@ -190,6 +208,7 @@ const trips = [
         firstName: "Roberto",
         lastName: "Fabbri",
         phone: "3361234567",
+        email: "roberto.fabbri@example.com",
         fiscalCode: "FBBRRT87C10A944F",
       },
       {
@@ -197,6 +216,7 @@ const trips = [
         firstName: "Silvia",
         lastName: "Costa",
         phone: "3369876543",
+        email: "silvia.costa@example.com",
         fiscalCode: "CSTSLV93D41A944G",
       },
       {
@@ -204,6 +224,7 @@ const trips = [
         firstName: "Michele",
         lastName: "Leone",
         phone: "3364567890",
+        email: "michele.leone@example.com",
         fiscalCode: "LNEMHL90E15A944H",
       },
     ],
@@ -219,6 +240,7 @@ const trips = [
         firstName: "Salvatore",
         lastName: "Messina",
         phone: "3361112233",
+        email: "salvatore.messina@example.com",
         fiscalCode: "MSSSVT89F10G273J",
       },
       {
@@ -226,6 +248,7 @@ const trips = [
         firstName: "Claudia",
         lastName: "Vitale",
         phone: "3364445566",
+        email: "claudia.vitale@example.com",
         fiscalCode: "VTLCLD94G41G273K",
       },
       {
@@ -233,6 +256,7 @@ const trips = [
         firstName: "Roberta",
         lastName: "Amato",
         phone: "3367778899",
+        email: "roberta.amato@example.com",
         fiscalCode: "MTARBT92H15G273L",
       },
     ],
@@ -248,6 +272,7 @@ const trips = [
         firstName: "Nicola",
         lastName: "Lombardi",
         phone: "3371234567",
+        email: "nicola.lombardi@example.com",
         fiscalCode: "LMBNCL88I10A662M",
       },
       {
@@ -255,6 +280,7 @@ const trips = [
         firstName: "Ilaria",
         lastName: "Serra",
         phone: "3379876543",
+        email: "ilaria.serra@example.com",
         fiscalCode: "SRRLRI95L41A662N",
       },
       {
@@ -262,6 +288,7 @@ const trips = [
         firstName: "Paolo",
         lastName: "Mancini",
         phone: "3374567890",
+        email: "paolo.mancini@example.com",
         fiscalCode: "MNCPLA90M15A662P",
       },
     ],
@@ -277,6 +304,7 @@ const trips = [
         firstName: "Giorgio",
         lastName: "Sanna",
         phone: "3371112233",
+        email: "giorgio.sanna@example.com",
         fiscalCode: "SNNGRG87N10B354Q",
       },
       {
@@ -284,14 +312,16 @@ const trips = [
         firstName: "Arianna",
         lastName: "Piras",
         phone: "3374445566",
-        fiscalCode: "PRS RNN94P41B354R".replace(" ", ""),
+        email: "arianna.piras@example.com",
+        fiscalCode: "PRSRNN94P41B354R",
       },
       {
         id: 3,
         firstName: "Fabio",
         lastName: "Melis",
         phone: "3377778899",
-        fiscalCode: "MLS FBA91R15B354S".replace(" ", ""),
+        email: "fabio.melis@example.com",
+        fiscalCode: "MLSFBA91R15B354S",
       },
     ],
   },
