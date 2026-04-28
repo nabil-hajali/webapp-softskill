@@ -1,0 +1,34 @@
+@import "bootstrap";
+
+.custom_pill {
+    width: 150px;
+}
+
+.custom-card {
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    background: #ffffff;
+}
+
+.custom-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.avatar {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #0d6efd, #0dcaf0);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.custom_pointer {
+    cursor: pointer;
+}
